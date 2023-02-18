@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithoutTemplateMethod", "WithoutTemplateMethod\WithoutTemplateMethod.csproj", "{1623D1DF-7A68-4BA1-99AA-657981C590C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithTemplatePattern", "WithTemplatePattern\WithTemplatePattern.csproj", "{BFF42B08-7EA9-44D4-AC06-B1B0E87B8521}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{1623D1DF-7A68-4BA1-99AA-657981C590C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1623D1DF-7A68-4BA1-99AA-657981C590C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1623D1DF-7A68-4BA1-99AA-657981C590C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF42B08-7EA9-44D4-AC06-B1B0E87B8521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF42B08-7EA9-44D4-AC06-B1B0E87B8521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF42B08-7EA9-44D4-AC06-B1B0E87B8521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF42B08-7EA9-44D4-AC06-B1B0E87B8521}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
