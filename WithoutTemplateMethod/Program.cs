@@ -1,6 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+using WithoutTemplateMethod;
 
-app.MapGet("/", () => "Hello World!");
+var firstCoffeeMaker = new CoffeeMaker();
+firstCoffeeMaker.MakeCoffee();
 
-app.Run();
+Console.WriteLine();
+
+var secondCoffeeMaker = new FrenchPressCoffeeMaker();
+secondCoffeeMaker.MakeCoffee();
