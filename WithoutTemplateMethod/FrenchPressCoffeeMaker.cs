@@ -9,7 +9,6 @@ public class FrenchPressCoffeeMaker
         SteepCoffee();
         PourIntoCup();
         AddMilk();
-        AddSugar();
     }
 
     // The method are the same as in CoffeeMaker.cs
@@ -40,11 +39,5 @@ public class FrenchPressCoffeeMaker
     private void AddMilk()
     {
         Console.WriteLine("Adding milk to taste");
-    }
-
-    // The method aren't in CoffeeMaker.cs
-    private void AddSugar()
-    {
-        Console.WriteLine("Adding sugar to taste");
     }
 }

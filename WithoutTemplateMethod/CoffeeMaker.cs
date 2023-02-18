@@ -8,6 +8,7 @@ public class CoffeeMaker
         GrindCoffee();
         BrewCoffee();
         PourIntoCup();
+        AddSugar();
     }
 
     private void BoilWater()
@@ -22,11 +23,16 @@ public class CoffeeMaker
 
     private void BrewCoffee()
     {
-        Console.WriteLine("Brewing coffee");
+        Console.WriteLine("Brewing coffee in drip coffee maker");
     }
 
     private void PourIntoCup()
     {
         Console.WriteLine("Pouring coffee into cup");
+    }
+    
+    private void AddSugar()
+    {
+        Console.WriteLine("Adding sugar to taste");
     }
 }
