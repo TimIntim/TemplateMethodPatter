@@ -40,4 +40,4 @@ public class FrenchPressCoffeeMaker
     {
         Console.WriteLine("Adding milk to taste");
     }
-}
+} 
